@@ -1,0 +1,186 @@
+.nav1 i,.nav1 span
+{
+	padding: 8px;
+	color: white;
+}
+.nav1
+{
+	background-image:linear-gradient(to right,#1a1aff,#99ff33);
+	padding: 10px;
+}
+@media screen and (max-width: 480px) 
+{
+	.nav1
+	{
+		visibility: hidden;
+	}
+	.nav2
+	{
+	  margin-top: -150px;
+	}
+}
+.nav2 img
+{
+	width: 200px;
+}
+.nav2
+{
+    background-color: white;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+.nav2 .nav-item
+{
+	font-size: 18px;
+	font-weight: 600;
+	color: #1a1aff;
+}
+.nav2 .nav-item:hover
+{
+	border-bottom:3px solid #1a1aff;
+	border-radius: 5px;
+}
+.dropdown-menu li
+{
+	border-bottom: 2px dotted;
+	font-size: 17px;
+  font-weight: 600;
+  padding: 5px;
+  border-radius: 12px;
+}
+.nav2 .get 
+{
+	height: 55px;
+	width: 155px;
+	border-radius: 18px;
+	background-color:#1a1aff;
+	color: white;
+	font-weight: 600;
+	font-size: 20px;
+}
+.main3 img
+{
+	height: 320px;
+	position: absolute;
+	z-index: -1;
+}
+
+.main3 .back
+{
+	background-color: #24189C;
+	height: 320px;
+	width: 100%;
+	opacity: 0.8;
+}
+
+.main3 p
+{
+	margin-top: -200px;
+	z-index: 0;
+	position: relative;
+	font-size: 60px;
+	font-weight: 700;
+	color: white;
+}
+.main3 h5
+{
+	margin-top: -140px;
+	z-index: 0;
+	position: relative;
+	color: white;
+}
+.main3 span
+{
+	color: #00ccff;
+}
+.main4 img
+ {
+ 	height: 300px;
+ 	width: 380px;
+ 	border-radius: 7px;
+ 	box-shadow: 10px 5px 10px 2px #a3a3c2;
+ }
+ .main5 button
+ {
+ 	height: 55px;
+	width: 160px;
+	border: none;
+	border-radius: 18px;
+	background-color: #1a1aff;
+	color: white;
+	font-weight: 600;
+	font-size: 20px;
+	margin-top: -20px;
+ }
+ .main5 button:hover
+ {
+ 	background-color: #00004d;
+ }
+ .footer
+{
+	background-color: #000066;
+	color: white;
+}
+.footer h3
+{
+	font-weight: 700;
+}
+.first img
+{
+	width: 200px;
+}
+.footer p 
+{
+	font-weight: 600;
+	text-align: justify;
+}
+.first i 
+{
+	font-size: 18px;
+	height: 37px;
+	width: 37px;
+	border: 1px groove #00ccff;
+	border-radius: 50%;
+	padding: 8px;
+	text-align: center;
+	background-color: transparent;
+	color: #00ccff;
+}
+.first i:hover
+{
+	border: 2px solid #00ccff;
+}
+.second li
+{
+	color: white;
+	list-style: none;
+	font-size: 18px;
+} 
+.second li:hover
+{
+  color: #00ccff;
+  margin-left: 10px;
+}
+.third i
+{
+  font-size: 23px;
+  color: #00ccff;
+}
+.copyright li 
+{
+	list-style: none;
+	display: inline-block;
+	padding-right: 10px;
+	font-weight: 600;
+	font-size: 17px;
+	color: white;
+}
+.copyright li:hover
+{
+	color: #00ccff;
+}
+.copyright span 
+{
+  color: #00ccff;
+}
